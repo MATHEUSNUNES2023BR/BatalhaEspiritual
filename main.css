@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&family=Rubik&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(img/resident.jpg);
+    background-size: cover;
+    background-image: linear-gradient(130deg, rgb(57, 75, 175), rgb(37, 29, 54));
+    font-family: Roboto Condensed;
+    height: auto;
+}
+header{
+    background-image: linear-gradient(90deg,gold, rgb(83, 83, 207));
+}
+header .container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0;
+   
+    
+}
+.container-lista li{
+    display: inline;
+    margin-right: 4vw;
+
+}
+.container-lista li :hover{
+    cursor: pointer;
+    background-color: rgba(92, 90, 90, 0.733);
+}
+.container h1{
+    font-weight: bold;
+    color: white;
+}
+.container-lista li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+}
+.Leao, .Guerreiro{
+    width: 30vw;
+}
+.Leao img, .Guerreiro img{
+    width: inherit;
+    border-radius: 50%;
+}
+#introducao,#Efesios6{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 5vw;
+    align-items: center;
+    width: 92vw;
+    
+}
+.introducao-container, .Efesios6-container{
+    display: flex;
+    text-align:justify;
+    margin-left: 2vw;
+    flex-direction: column;
+    font-size: 2.3vw;
+    color: white;
+}
+.versiculo{
+   margin-left: auto;
+   margin-right: 2vw;
+   font-size: 1.7vw
+}
+#Efesios6{
+    margin-top: 12vw;
+}
+.Efesios6-container{
+    margin-left: 0;
+    margin-right: 2vw;
+    width: 85vw;
+    font-size: 1.5vw;
+}
+#Contato{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: 18vw 0 3vw 4vw;
+}
+#Contato .Contato-container h2{
+    color: white;
+    margin-bottom: 0.5vw;
+}
+#Contato .Contato-container form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border: 0.1vw solid rgb(32, 32, 32);
+}
+#Contato .Contato-container form input{
+    margin: 0.08vw 0;
+    height: 3vw;
+}
+#Contato .Contato-container form button{
+    background-color: rgb(35, 37, 56);
+    color: white;
+    font-size: 1vw;
+    height: 3vw;
+}
+#Contato .Contato-container form button:hover{
+    cursor: pointer;
+}
+#Contato .Contato-container form textarea{
+    resize: none;
+    height: 9vw;
+}
+.Contato-endereco__add{
+    margin-top:2vw;
+}
+.Contato-endereco__add p {
+    font-size: 1.5vw;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Contato-endereco h2, .Contato-acompanhe h2{
+    color: white;
+}
+.Contato-acompanhe__listaicones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10vw;
+    height: 12vw;
+    margin-top: 2vw;
+    list-style: none;
+}	
+.Contato-acompanhe__listaicones li a{
+    width: 3vw;
+    height: 3vw;
+    text-decoration: none;
+}	
+.Contato-acompanhe__listaicones li a img{
+    width: inherit;
+    height: inherit;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 41, 54);
+    height: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-container{
+    display: flex;
+    margin-left: 6vw;
+}
+.footer-container img{
+    width: 1vw;
+}
+.footer-container p {
+    font-size: 1.2vw;
+    margin-left: 0.5vw;
+    color: white;
+}
+.footer-atribuicao{
+    display: flex;
+    flex-direction: column;
+    width: 11vw;
+    font-size: 0.8vw;
+    margin-right: 5vw;
+}
+.footer-atribuicao, a{
+    color: white;
+    text-decoration: none;
+}
